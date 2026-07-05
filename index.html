@@ -85,10 +85,8 @@ a{color:inherit}
   font-size:11px;
   font-weight:800;
 }
-.screen{display:none;animation:fade .25s ease}
+.screen{display:none}
 .screen.active{display:block}
-@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
-
 .hero{
   display:grid;
   grid-template-columns:1.08fr .92fr;
@@ -687,6 +685,7 @@ button:disabled{opacity:.45;cursor:not-allowed;transform:none!important}
         <p>診断結果に合わせて、公式ページや関連サービスを確認できます。</p>
       </article>
     </section>
+  </section>
   <section id="quizScreen" class="screen">
     <div class="quiz-wrap">
       <div class="quiz-head">
